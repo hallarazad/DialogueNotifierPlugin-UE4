@@ -1,0 +1,30 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Auto AnimNotify Creation for Dialogues",
+	"Description": "Automatically create animation notifies on all selected animations for dialogues' sounds playing",
+	"Category": "Rematch Studio",
+	"CreatedBy": "HallarAzad (Rematch Studio)",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"Installed": false,
+	"Modules": [
+    {
+      "Name": "DialogueNotifierPlugin",
+      "Type": "Editor",
+      "LoadingPhase": "Default"
+    },
+    {
+      "Name": "CustomNotifierModule",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    }
+    
+    
+	]
+}
